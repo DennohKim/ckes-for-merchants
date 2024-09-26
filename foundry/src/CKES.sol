@@ -7,6 +7,6 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
 contract CKES is ERC20, ERC20Permit {
   constructor() ERC20("CKES", "Test CKES") ERC20Permit("CKES") {
-    _mint(msg.sender, 1000 * 10 ** decimals());
+    _mint(msg.sender, 100000 * 10 ** decimals());
   }
 }

@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 import "./interfaces/IERC20.sol";
 
-contract EasyPay {
-  address public CKES; // 0xea97dd6710904103d61060Cc2Cd84B4B0C0f5a7F
+contract MerchantPay {
+  address public CKES; // 0x858e61eDC5Cd6B8c11aD4ceEE73161fF90023416
 
   enum Status {
     PENDING,
