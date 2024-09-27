@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div>
             <Link href="/" className="font-bold lg:text-lg">
-              EasyPay
+              MerchantPay
             </Link>
           </div>
 

@@ -5,18 +5,21 @@ import { useQuery } from "@tanstack/react-query";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const AccountCard = () => {
-  const { address, isConnecting } = useAccount();
+  const { address } = useAccount();
 
   const getTotalPayments = async () => {
     const { data } = await axios.get(`/api/user/${address}/total-payments`);
+    console.log(data);
     return data;
   };
 
-  const { isPending: isLoading, data: total } = useQuery({
+  const { data: total } = useQuery({
     queryKey: ["user", address],
     queryFn: getTotalPayments,
     enabled: !!address,
   });
+
+  console.log(total);
 
   return (
     <Card>
