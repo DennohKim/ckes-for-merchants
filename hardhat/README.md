@@ -18,8 +18,6 @@ MerchantPay is a decentralized payment system built on the Celo blockchain, desi
 - [Frontend](#frontend)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -131,19 +129,5 @@ npm run test
    ```
 3. Deploy the frontend to your preferred hosting service (e.g., Vercel, Netlify)
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-This README provides a comprehensive overview of the MerchantPay project, including setup instructions, project structure, and contribution guidelines. You may want to adjust some details based on your specific project setup and requirements. Also, remember to create the mentioned `.env.example` files with the necessary environment variables for both the root directory and the `frontend` directory.
