@@ -14,7 +14,7 @@ export default function Component() {
   return (
     <Container>
       <div className="flex flex-col justify-center items-center">
-        <section className="py-8 lg:py-8 px-4 lg:pt-10 lg:px-7 pb-16">
+        <section className="py-8 lg:py-8 px-4 lg:pt-10 lg:px-7 pb-4">
           <header className="flex flex-col gap-y-12 xl:max-w-[1080px] xl:mx-auto">
             <div className="flex flex-col ">
               <h1
@@ -22,7 +22,7 @@ export default function Component() {
            md:mx-auto lg:text-[56px] w-full"
               >
                 <span className="relative inline-block">
-                  Easy listings, <Stroke />
+                  Easy listings,
                 </span>{" "}
                 Fast payments!
               </h1>
